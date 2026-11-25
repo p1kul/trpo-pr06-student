@@ -1,0 +1,14 @@
+body { font-family: Arial, sans-serif; background: #f5f6f8; color: #222; margin: 0; }
+header { background: #26364c; color: white; padding: 17px 0; }
+main, .wrap { max-width: 950px; margin: 0 auto; padding: 0 16px; }
+h1 { font-size: 25px; } h2 { font-size: 21px; }
+.panel { background: white; padding: 20px; margin: 22px 0; border: 1px solid #ddd; border-radius: 8px; }
+label { display: block; margin-top: 12px; font-weight: bold; }
+input, select, textarea { display: block; width: 100%; max-width: 480px; box-sizing: border-box; padding: 9px; margin: 5px 0; font: inherit; border: 1px solid #aaa; border-radius: 4px; }
+button, .button { display: inline-block; background: #315efb; color: white; border: 0; border-radius: 4px; padding: 9px 13px; margin-top: 10px; cursor: pointer; text-decoration: none; font: inherit; }
+.muted { color: #666; } .error { color: #ba1d1d; } .success { color: #087538; }
+table { width: 100%; border-collapse: collapse; } td, th { text-align: left; border: 1px solid #ddd; padding: 9px; }
+th { background: #eef1f5; } .table-wrap { overflow-x: auto; }
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 12px; }
+.card { border: 1px solid #ddd; padding: 14px; border-radius: 6px; }
+@media (max-width: 600px) { h1 { font-size: 21px; } .panel { padding: 14px; } }
